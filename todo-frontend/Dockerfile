@@ -20,7 +20,7 @@ COPY src/ /usr/share/nginx/html
 
 EXPOSE 8080
 
-USER 1001 
+USER nginx
 
 CMD nginx -g "daemon off;"
 
